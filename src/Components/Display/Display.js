@@ -1,5 +1,5 @@
 import React from "react"
-import PropTypes from "prop-types"
+// import PropTypes from "prop-types"
 
 import kuramon_1 from "./img/kuramon-1.png"
 import kuramon_2 from "./img/kuramon-2.png"
@@ -33,12 +33,12 @@ export default class Display extends React.Component {
     render() {
         return (
             <>
-                <img src = {this.state.image} />
+                <img src = {this.state.image} draggable = 'false' alt ='' />
             </>
         )
     }
 }
 
-Display.propTypes = {
-
-}
+// Display.propTypes = {
+//
+// }
