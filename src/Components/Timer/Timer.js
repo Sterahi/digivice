@@ -47,7 +47,7 @@ export default class Timer extends React.Component {
 
     clean() {
         this.setState({
-            counter:0
+            counter: 0
         })
     }
 
